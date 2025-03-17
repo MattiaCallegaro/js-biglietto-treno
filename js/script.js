@@ -7,5 +7,12 @@ const age = prompt ("Inserisci la tua etá")
 const priceForKm = 0.21;
 let ticketPrice = km * priceForKm;
 
+//Sconti etá
+
+if (age<18){
+    ticketPrice * 0.8;
+}
+//Risultato
+
 console.log(`Il prezzo del biglietto é : ${ticketPrice} €`)
 alert(`Il prezzo del biglietto é : ${ticketPrice} €`)
