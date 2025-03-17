@@ -12,6 +12,10 @@ let ticketPrice = km * priceForKm;
 if (age<18){
     ticketPrice * 0.8;
 }
+
+else if (age>65){
+    ticketPrice * 0.6
+} 
 //Risultato
 
 console.log(`Il prezzo del biglietto é : ${ticketPrice} €`)
