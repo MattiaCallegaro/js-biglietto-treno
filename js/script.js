@@ -16,7 +16,12 @@ if (age<18){
 else if (age>=65){
     ticketPrice *= 0.6
 } 
+
+//Human price
+
+const humanPrice = ticketPrice.toFixed(2)
+
 //Risultato
 
-console.log(`Il prezzo del biglietto é : ${ticketPrice} €`)
-alert(`Il prezzo del biglietto é : ${ticketPrice} €`)
+console.log(`Il prezzo del biglietto é : ${humanPrice} €`)
+alert(`Il prezzo del biglietto é : ${humanPrice} €`)
