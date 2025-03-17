@@ -10,11 +10,11 @@ let ticketPrice = km * priceForKm;
 //Sconti etá
 
 if (age<18){
-    ticketPrice * 0.8;
+    ticketPrice *= 0.8;
 }
 
-else if (age>65){
-    ticketPrice * 0.6
+else if (age>=65){
+    ticketPrice *= 0.6
 } 
 //Risultato
 
